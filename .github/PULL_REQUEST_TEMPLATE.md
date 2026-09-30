@@ -1,21 +1,14 @@
-# Pull Request Template
+## What Changed
+Provide a concise summary of the specific code, configuration, or architectural changes introduced in this pull request.
 
-## Description
-Please include a summary of the change and which issue is fixed. Include relevant motivation and context.
+## Why This Change
+Explain the business context, user problem, or bug ticket driving this modification and why this approach was selected.
 
-Fixes # (issue)
+## How It Was Tested
+Detail the unit tests, integration tests, and manual verification steps executed to confirm that the changes work correctly.
 
-## Type of change
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Documentation update
+## Screenshot or Log Evidence
+Attach terminal log output, test execution summaries, or visual screenshots demonstrating that the changes operate successfully.
 
-## Checklist:
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
+## Risks and Dependencies
+Outline any potential operational risks, database migrations, breaking API changes, or third-party service dependencies required for deployment.

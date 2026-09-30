@@ -1,6 +1,14 @@
-# This is the CODEOWNERS file.
-# It defines who is responsible for different parts of the codebase.
-
+# Default owners for overall repository governance and general project files.
 * @kalviumcommunity/devops-instructors
+
+# Financial and transaction calculations require Fintech team approval to prevent revenue calculation errors and tax compliance issues.
 /src/payments.js @kalviumcommunity/fintech-team
+
+# Authentication and user security logic requires Security team approval to prevent access vulnerabilities and token breaches.
 /src/auth.js @kalviumcommunity/security-team
+
+# Core application server setup requires Senior Backend Architect approval to maintain routing and middleware integrity.
+/src/app.js @kalviumcommunity/backend-architects
+
+# CI/CD pipeline automation workflows require DevOps Lead approval to prevent unauthorized workflow changes and pipeline failures.
+/.github/workflows/ @kalviumcommunity/devops-lead
